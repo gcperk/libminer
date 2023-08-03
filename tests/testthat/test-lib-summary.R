@@ -6,7 +6,7 @@ test_that("lib_summary returns expected results", {
   expect_type(result$library, "character")
   expect_type(result$n_packages, "integer")
   expect_gt(sum(result$n_packages), 0)
-  expect_equal(sort(result$library), sort(.libPaths()))
+  expect_setequal(result$library,.libPaths())
 })
 
 test_that("lib_summary fails appropriately", {
