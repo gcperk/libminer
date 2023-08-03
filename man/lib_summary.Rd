@@ -2,9 +2,12 @@
 % Please edit documentation in R/lib-summary.R
 \name{lib_summary}
 \alias{lib_summary}
-\title{Summary of Libraries}
+\title{Summary of libraries}
 \usage{
-lib_summary()
+lib_summary(sizes = FALSE)
+}
+\arguments{
+\item{sizes}{TRUE / FALSE to assess the size of libraries}
 }
 \value{
 A dataframe containing count of packages with libraries
@@ -16,5 +19,6 @@ location on your machine
 \examples{
 \dontrun{
 lib_summary()
+lib_summary(sizes = TRUE)
 }
 }
