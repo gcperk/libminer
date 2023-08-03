@@ -30,7 +30,7 @@ lib_summary()
 #>                                                                 library
 #> 1                                    C:/Program Files/R/R-4.2.3/library
 #> 2                        C:/Users/genev/AppData/Local/R/win-library/4.2
-#> 3 C:/Users/genev/AppData/Local/Temp/Rtmp8Yj7Lk/temp_libpath57741d815428
+#> 3 C:/Users/genev/AppData/Local/Temp/Rtmp8Yj7Lk/temp_libpath577471246b00
 #>   n_packages
 #> 1         30
 #> 2        204
@@ -39,12 +39,9 @@ lib_summary(sizes = TRUE)
 #>                                                                 library
 #> 1                                    C:/Program Files/R/R-4.2.3/library
 #> 2                        C:/Users/genev/AppData/Local/R/win-library/4.2
-#> 3 C:/Users/genev/AppData/Local/Temp/Rtmp8Yj7Lk/temp_libpath57741d815428
+#> 3 C:/Users/genev/AppData/Local/Temp/Rtmp8Yj7Lk/temp_libpath577471246b00
 #>   n_packages  lib_size
 #> 1         30  67242362
 #> 2        204 598585079
-#> 3          1     16549
+#> 3          1     16548
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:

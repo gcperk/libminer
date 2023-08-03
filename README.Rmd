@@ -40,4 +40,3 @@ lib_summary()
 lib_summary(sizes = TRUE)
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
