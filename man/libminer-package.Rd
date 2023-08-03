@@ -12,6 +12,7 @@ Help explore the libraries on your machine.
 Useful links:
 \itemize{
   \item \url{https://github.com/gcperk/libminer}
+  \item \url{https://gcperk.github.io/libminer/}
   \item Report bugs at \url{https://github.com/gcperk/libminer/issues}
 }
 
