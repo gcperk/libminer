@@ -6,7 +6,9 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' lib_summary()
+#' }
 lib_summary <- function(){
   pkgs <- utils::installed.packages()
   pkg_tbl <- table(pkgs[, "LibPath"])
