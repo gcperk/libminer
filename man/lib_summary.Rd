@@ -14,7 +14,7 @@ Provides a list of number of packages per library
 location on your machine
 }
 \examples{
+\dontrun{
 lib_summary()
-
-
+}
 }
